@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+
+# HP 专有文件一律不入库（驱动/固件/由其提取的图标）
+downloads/
+*.exe
+*.cab
+*.img
+*.cat
+printer.ico
+
+# 本机产物
+selftest.log
+gui-shot*.png
+gui-run.log
+gui-final.png
+gui-*.png
